@@ -12,5 +12,5 @@ storage = MemoryStorage()
 
 dp = Dispatcher(bot, storage=storage)
 
-# Добавляем человека в бд
+
 __all__ = ['bot', 'storage', 'dp', 'db']
