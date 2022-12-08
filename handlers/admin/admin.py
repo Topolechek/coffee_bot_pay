@@ -1,8 +1,8 @@
-from aiogram import types\
+from aiogram import types
 
 from data.config import barista_id
 from loader import dp
-from states import Test\
+from states import Test
 
 
 @dp.message_handler(user_id=barista_id, text='/open', state=Test.test_x)
